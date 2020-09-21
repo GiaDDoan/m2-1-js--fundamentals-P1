@@ -52,7 +52,12 @@ Put your solution between the ```:
 _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
-// Your solution here!
+let sentence = 'Hello world!';
+ if (sentence.includes('Hello')) {
+     console.log('Sentence DOES contain the word "Hello"');
+} else {
+    console.log('Sentence DOES NOT contain the word "Hello"');
+}
 
 ```
 
@@ -65,7 +70,11 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 5. const thirdIndex = = 0;
 
 ```
-// Your solution here!
+const array = [[1, [2, 3]]];
+const firstIndex = 0;
+const secondIndex = 1;
+const thirdIndex = 0;
+console.log(array[firstIndex][secondindex][thirdIndex])
 
 ```
 
@@ -79,7 +88,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 6. }
 
 ```
-// Your solution here!
+let currentNum = 10;
+let min = 5;
+ while (currentNum > min) {
+     console.log(currentNum);
+     currentNum = currentNum - 1;
+    }
+
 
 ```
 
@@ -108,8 +123,18 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 6. let count = 10;
 7. }
 
+
+
+
+
 ```
-// Your solution here!
+let count = 10;
+let total = 0;
+ while (count > 0) {
+     console.log('The total is:', total)
+     total = total + count;
+     count = count - 1;
+     }
 
 ```
 
