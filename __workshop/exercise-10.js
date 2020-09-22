@@ -12,8 +12,9 @@ function exercise10() {
   // #######
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
-  // -----------------------------------------------------------------
+for (let line = 1; line <=7; line++) {
+  console.log(line)
+}
   // Write code between the lines (above)
   //
   //
