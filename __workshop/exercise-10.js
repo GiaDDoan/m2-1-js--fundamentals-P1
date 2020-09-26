@@ -12,9 +12,18 @@ function exercise10() {
   // #######
   //
   // Write code between the lines (below)
-for (let line = 1; line <=7; line++) {
-  console.log(line)
+// const hash = "#";
+// for (line = 0; line < 8; line++) {
+//   hash += "#";
+//   console.log(hash);
+// }
+var hash = "#";
+
+for(counter = 1; counter < 8; counter ++){
+  console.log(hash);
+  hash += "#"
 }
+
   // Write code between the lines (above)
   //
   //
