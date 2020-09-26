@@ -108,8 +108,15 @@ let min = 5;
 6. }
 7. const reversedString = reversedArray.join('');
 
+
 ```
-// Your solution here!
+const encodedMessage = 'gnidliub gruobuaF eht rednu deirub si erusaert ehT';
+const letterArray = encodedMessage.split('');
+const reversedArray = letterArray.reverse();
+const reversedString = reversedArray.join('');
+    if (reversedString.includes('treasure')) {
+        console.log('Your message:', reversedString)
+        }
 
 ```
 
@@ -150,7 +157,15 @@ let total = 0;
 8. let array = [1, 3, 7, 4, 5, 2, 1];
 9. }
 
-```
-// Your solution here!
 
+```
+let array = [1, 3, 7, 4, 5, 2, 1];
+let numberToSearchFor = 5;
+let includesNumber;
+for (let i = 0; i < array.length; i++) {
+    let item = array[i];
+    if (item === numberToSearchFor) {
+        console.log('Array includes the number!')
+        }
+    }
 ```
